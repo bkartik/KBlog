@@ -1,0 +1,109 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>KBlog</title>
+	<script type="text/javascript" src="script/blogaction.js">
+	</script>
+	<script type="text/javascript">
+
+</script>
+	<link rel="stylesheet" type="text/css" href="script/style.css"> </link>
+
+</head>
+<body>
+<div id="container">
+
+	<div id="header"><h1><font color=#aaa> welcome to K</font><font color="green">Blog</font></h1></div>
+
+
+		<div id="nav">
+		<ul id="nav">
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">PROJECT</a>
+			<ul>
+		<a href="#">Web Based</a></li>
+		<a href="#">Stand Alone</a></li>
+		<a href="#">Data Mining</a></li>
+		<a href="#" id="recentPRO" ></a></li>
+			</ul>
+			</li>
+			<li><a href="#">TUTORIALS</a>
+			<ul>
+			<a href="#">JAVASCRIPT</a></li>
+			<a href="#">HTML 5</a></li>
+			<a href="#">CSS 3</a></li>
+			<a href="#" id="recentTUT" ></a>
+			</ul>
+			</li>
+			<li><a href="#">OTHERS</a>
+			<ul>
+				<a href="#" id="recentOTH" ></a>
+			</ul>
+			</li>
+
+			<li><a href="#contact">COUNTACT US</a></li>
+		</ul>
+		</div>
+
+<div id="main">
+
+<div id="main_left"><h3 ><label id='headLabel'>Article
+</label></h3>
+<br><br><br>
+<label id="dataPrv"></label>
+</div>
+
+<div id="main_right">
+	
+	<h4 style="margin:10px">Most viewed</h4>
+	<ul style="margin-left:20px">
+		<li><a href="#">some link</a></li>
+		<li><a href="#">some link2</a></li>
+		<li><a href="#">some link3</a></li>
+		<li><a href="#" id="recent" >some link4</a></li>
+		
+	</ul>
+
+</div>
+</div>
+
+<div id="footer">
+
+<form style="margin-left:5px"><br>
+
+<h3>Submit Your Article Here</h3><br>
+<label>Title :-&nbsp&nbsp&nbsp</label>	
+
+<input type="text" maxlength="100" size="78" name='heading' id='heading'/><br><br><br>
+<label>Material :-</label><textarea name="data" id="data" rows="7" cols="80"></textarea><br>
+Catagory:-
+<input list="cat" name="cat"  id="cat0" value="Other">
+  <datalist id="cat">
+    <option value="Project"></option>
+    <option value="Tutorial"></option>
+    <option value="Others"></option>
+  </datalist>
+<input type="button" onclick="submitM()" value="preview" />
+</form>
+<br>
+<div id="downFooter">
+	<a name="contact"></a>
+	<font color="burlywood">
+	<h3>Contact us :-</h3>
+	<form>
+		<label>Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:-</label><input type="Text" id="email" placeholder="Enter your email." /><br><br>
+		<label>Comments:-</label><textarea id="email" placeholder="Enter the comments here." ></textarea>
+		<label style="float:right">Email At:-kbhakoonamatata786@gmail.com</label><br>
+	<label style="float:right">Developed By:-Kartik Bhardwaj</label>
+		<pre>                  <input type="submit"></pre>
+	
+
+	</form>
+	
+	</font>
+</div>
+</div>
+
+</div>
+</body>
+</html>
